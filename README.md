@@ -1,4 +1,4 @@
-Mordified the code package from odenizgiz (https://github.com/odenizgiz/Podcasts-Data).
+This version is built upon the code package from odenizgiz (https://github.com/odenizgiz/Podcasts-Data).
 Major changes:
 1. updated links for wed-scraping (as Apple is shutting down iTune).
 2. changed the functions "get_description" in the notebook 02.1. 
