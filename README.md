@@ -2,7 +2,7 @@
 This version is built upon the code package from odenizgiz (https://github.com/odenizgiz/Podcasts-Data).
 Major changes:
 1. updated links for wed-scraping (as Apple is shutting down iTune).
-2. changed the functions "get_description" in the notebook 02.1. (The webpage structure has changed drastically since the original package was written). <br>
+2. changed the function "get_description" in the notebook 02.1. (The webpage structure has changed drastically since the original package was written). <br>
    The notebook now saves two dataframes that include numerical ratings. They are:  
     * "df_podcast" with the following columns:
         ['Item', 'ID','Artwork', 'Genre IDs', 'Episode Count','iTunes URL', 'Feed URL','Avg Rating','Rating Count','Description'].  Note that "Episode Count" is likely to only reflect recent episodes instead of all episodes published to date. The dataframe is saved as "df_popular_podcasts.csv". <br>
