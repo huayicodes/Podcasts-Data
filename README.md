@@ -1,13 +1,15 @@
+## Differences from the original package
 This version is built upon the code package from odenizgiz (https://github.com/odenizgiz/Podcasts-Data).
 Major changes:
 1. updated links for wed-scraping (as Apple is shutting down iTune).
-2. changed the functions "get_description" in the notebook 02.1. 
-   The notebook now saves two dataframes that include numerical ratings.They are:  
-    a. "df_podcast" with the following columns:
-        ['Item', 'ID','Artwork', 'Genre IDs', 'Episode Count','iTunes URL', 'Feed URL','Avg Rating','Rating Count','Description'].  Note that "Episode Count" is likely to only reflect recent episodes instead of all episodes published to date. The dataframe is saved as "df_popular_podcasts.csv".
-    b. "df_rating" with three columns: ['Item','Author','Rating']. It contains a small number of numerical ratings for each podcast from different users. The dataframe is saved as "df_sample_ratings.csv".
+2. changed the functions "get_description" in the notebook 02.1. (The webpage structure has changed drastically since the original package was written). <br>
+   The notebook now saves two dataframes that include numerical ratings. They are:  
+    * "df_podcast" with the following columns:
+        ['Item', 'ID','Artwork', 'Genre IDs', 'Episode Count','iTunes URL', 'Feed URL','Avg Rating','Rating Count','Description'].  Note that "Episode Count" is likely to only reflect recent episodes instead of all episodes published to date. The dataframe is saved as "df_popular_podcasts.csv". <br>
+    * "df_rating" with three columns: ['Item','Author','Rating']. It contains a small number of numerical ratings for each podcast from different users. The dataframe is saved as "df_sample_ratings.csv". Unfortunately, Apple seems to limit the number of scrapable reviews.
 
-######################################################################################################################
+###########################################################################################
+
 From the original README
 
 # Podcasts Data
