@@ -8,6 +8,8 @@ Major changes:
         ['Item', 'ID','Artwork', 'Genre IDs', 'Episode Count','iTunes URL', 'Feed URL','Avg Rating','Rating Count','Description'].  Note that "Episode Count" is likely to only reflect recent episodes instead of all episodes published to date. The dataframe is saved as "df_popular_podcasts.csv". <br>
     * "df_rating" with three columns: ['Item','Author','Rating']. It contains a small number of numerical ratings for each podcast from different users. The dataframe is saved as "df_sample_ratings.csv". Unfortunately, Apple seems to limit the number of scrapable reviews.
 
+Bonus: I performed exploratory analysis on "df_podcast" in the notebook "Podcast Analysis".
+
 ###########################################################################################
 
 From the original README
